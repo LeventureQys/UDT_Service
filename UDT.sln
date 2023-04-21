@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDT", "UDT\UDT.vcxproj", "{DD1CA148-2936-437B-9169-49BEA1D5C477}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDT_Server", "UDT_Server\UDT_Server.vcxproj", "{B0F9F510-3D41-4AB1-A29F-E2842ADBEBAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDT_Reciver", "UDT_Reciver\UDT_Reciver.vcxproj", "{7FA56B3F-C507-4DEF-B221-32B006045D8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD1CA148-2936-437B-9169-49BEA1D5C477}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD1CA148-2936-437B-9169-49BEA1D5C477}.Debug|x86.Build.0 = Debug|Win32
+		{DD1CA148-2936-437B-9169-49BEA1D5C477}.Release|x86.ActiveCfg = Release|Win32
+		{DD1CA148-2936-437B-9169-49BEA1D5C477}.Release|x86.Build.0 = Release|Win32
+		{B0F9F510-3D41-4AB1-A29F-E2842ADBEBAA}.Debug|x86.ActiveCfg = Debug|Win32
+		{B0F9F510-3D41-4AB1-A29F-E2842ADBEBAA}.Debug|x86.Build.0 = Debug|Win32
+		{B0F9F510-3D41-4AB1-A29F-E2842ADBEBAA}.Release|x86.ActiveCfg = Release|Win32
+		{B0F9F510-3D41-4AB1-A29F-E2842ADBEBAA}.Release|x86.Build.0 = Release|Win32
+		{7FA56B3F-C507-4DEF-B221-32B006045D8D}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FA56B3F-C507-4DEF-B221-32B006045D8D}.Debug|x86.Build.0 = Debug|Win32
+		{7FA56B3F-C507-4DEF-B221-32B006045D8D}.Release|x86.ActiveCfg = Release|Win32
+		{7FA56B3F-C507-4DEF-B221-32B006045D8D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE7B8FA0-A86F-4E44-AF6B-B15D3BBB05D4}
+	EndGlobalSection
+EndGlobal

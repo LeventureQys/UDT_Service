@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="UDT_Src">
+      <UniqueIdentifier>{8bc9a3ba-cebb-4960-a63e-e171266b3255}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="udt_reciver_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="UDT_Reciver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="udt_src\cache.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\ccc.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\channel.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\common.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\core.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\epoll.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\list.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\md5.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\packet.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\queue.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\udt.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\window.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\api.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="udt_src\buffer.h">
+      <Filter>UDT_Src</Filter>
+    </ClInclude>
+    <ClInclude Include="UDT_Reciver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="udt_src\cache.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\ccc.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\channel.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\common.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\core.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\epoll.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\list.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\md5.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\packet.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\queue.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\window.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\api.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+    <ClCompile Include="udt_src\buffer.cpp">
+      <Filter>UDT_Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="udt_src\Makefile">
+      <Filter>UDT_Src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
