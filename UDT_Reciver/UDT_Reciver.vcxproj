@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7FA56B3F-C507-4DEF-B221-32B006045D8D}</ProjectGuid>
     <Keyword>QtVS_v304</Keyword>
-    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">10.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">10.0.19041.0</WindowsTargetPlatformVersion>
     <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
   </PropertyGroup>
@@ -123,7 +123,7 @@
     <ClInclude Include="udt_src\queue.h" />
     <ClInclude Include="udt_src\udt.h" />
     <ClInclude Include="udt_src\window.h" />
-    <ClInclude Include="UDT_Reciver.h" />
+    <QtMoc Include="UDT_Reciver.h" />
     <ClCompile Include="UDT_Reciver.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -74,9 +74,6 @@
     <ClInclude Include="udt_src\channel.h">
       <Filter>udt_head</Filter>
     </ClInclude>
-    <ClInclude Include="UDT_Server.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="udt_src\common.cpp">
@@ -123,5 +120,10 @@
     <None Include="udt_src\Makefile">
       <Filter>udt_head</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="UDT_Server.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

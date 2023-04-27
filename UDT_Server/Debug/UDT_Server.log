@@ -1,4 +1,4 @@
-﻿  Reading Qt configuration (E:/Leventure/DevTools/Qt_32/5.14.2/msvc2017/bin/qmake)
+﻿  moc UDT_Server.h
   api.cpp
   buffer.cpp
   cache.cpp
@@ -13,33 +13,8 @@
   queue.cpp
   window.cpp
   UDT_Server.cpp
-E:\Leventure\WorkShop\Wheels\UDT_Part\UDT\UDT_Server\udt_src\core.cpp(771,1): warning C4297: “CUDT::connect”: 假定函数不引发异常，但确实发生了
-E:\Leventure\WorkShop\Wheels\UDT_Part\UDT\UDT_Server\udt_src\core.cpp(771,1): message : 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
-    正在创建库 E:\Leventure\WorkShop\Wheels\UDT_Part\UDT\Debug\UDT_Server.lib 和对象 E:\Leventure\WorkShop\Wheels\UDT_Part\UDT\Debug\UDT_Server.exp
-api.obj : error LNK2019: 无法解析的外部符号 __imp__getsockname@12，函数 __catch$?newConnection@CUDTUnited@@QAEHHPBUsockaddr@@PAVCHandShake@@@Z$7 中引用了该符号
-channel.obj : error LNK2001: 无法解析的外部符号 __imp__getsockname@12
-api.obj : error LNK2019: 无法解析的外部符号 __imp__ntohs@4，函数 __catch$?connect@CUDTUnited@@QAEHHPBUsockaddr@@H@Z$0 中引用了该符号
-api.obj : error LNK2019: 无法解析的外部符号 __imp__WSAStartup@8，函数 "public: int __thiscall CUDTUnited::startup(void)" (?startup@CUDTUnited@@QAEHXZ) 中引用了该符号
-api.obj : error LNK2019: 无法解析的外部符号 __imp__WSACleanup@0，函数 "public: int __thiscall CUDTUnited::cleanup(void)" (?cleanup@CUDTUnited@@QAEHXZ) 中引用了该符号
-api.obj : error LNK2019: 无法解析的外部符号 __imp__WSAGetLastError@0，函数 "public: int __thiscall CUDTUnited::startup(void)" (?startup@CUDTUnited@@QAEHXZ) 中引用了该符号
-channel.obj : error LNK2001: 无法解析的外部符号 __imp__WSAGetLastError@0
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__bind@12，函数 "public: void __thiscall CChannel::open(struct sockaddr const *)" (?open@CChannel@@QAEXPBUsockaddr@@@Z) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__closesocket@4，函数 "public: void __thiscall CChannel::close(void)const " (?close@CChannel@@QBEXXZ) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__getpeername@12，函数 "public: void __thiscall CChannel::getPeerAddr(struct sockaddr *)const " (?getPeerAddr@CChannel@@QBEXPAUsockaddr@@@Z) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__getsockopt@20，函数 "public: int __thiscall CChannel::getSndBufSize(void)" (?getSndBufSize@CChannel@@QAEHXZ) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__htonl@4，函数 "public: int __thiscall CChannel::sendto(struct sockaddr const *,class CPacket &)const " (?sendto@CChannel@@QBEHPBUsockaddr@@AAVCPacket@@@Z) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__ntohl@4，函数 "public: int __thiscall CChannel::sendto(struct sockaddr const *,class CPacket &)const " (?sendto@CChannel@@QBEHPBUsockaddr@@AAVCPacket@@@Z) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__setsockopt@20，函数 "private: void __thiscall CChannel::setUDPSockOpt(void)" (?setUDPSockOpt@CChannel@@AAEXXZ) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__socket@12，函数 "public: void __thiscall CChannel::open(struct sockaddr const *)" (?open@CChannel@@QAEXPBUsockaddr@@@Z) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__WSARecvFrom@36，函数 "public: int __thiscall CChannel::recvfrom(struct sockaddr *,class CPacket &)const " (?recvfrom@CChannel@@QBEHPAUsockaddr@@AAVCPacket@@@Z) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__WSASendTo@36，函数 "public: int __thiscall CChannel::sendto(struct sockaddr const *,class CPacket &)const " (?sendto@CChannel@@QBEHPBUsockaddr@@AAVCPacket@@@Z) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__getaddrinfo@16，函数 "public: void __thiscall CChannel::open(struct sockaddr const *)" (?open@CChannel@@QAEXPBUsockaddr@@@Z) 中引用了该符号
-channel.obj : error LNK2019: 无法解析的外部符号 __imp__freeaddrinfo@4，函数 "public: void __thiscall CChannel::open(struct sockaddr const *)" (?open@CChannel@@QAEXPBUsockaddr@@@Z) 中引用了该符号
-core.obj : error LNK2019: 无法解析的外部符号 __imp__getnameinfo@28，函数 __catch$?recvfile@CUDT@@AAE_JAAV?$basic_fstream@DU?$char_traits@D@std@@@std@@AA_J_JH@Z$0 中引用了该符号
-epoll.obj : error LNK2019: 无法解析的外部符号 ___WSAFDIsSet@8，函数 "public: int __thiscall CEPoll::wait(int,class std::set<int,struct std::less<int>,class std::allocator<int> > *,class std::set<int,struct std::less<int>,class std::allocator<int> > *,__int64,class std::set<unsigned int,struct std::less<unsigned int>,class std::allocator<unsigned int> > *,class std::set<unsigned int,struct std::less<unsigned int>,class std::allocator<unsigned int> > *)" (?wait@CEPoll@@QAEHHPAV?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@0_JPAV?$set@IU?$less@I@std@@V?$allocator@I@2@@3@2@Z) 中引用了该符号
-epoll.obj : error LNK2019: 无法解析的外部符号 _select@20，函数 "public: int __thiscall CEPoll::wait(int,class std::set<int,struct std::less<int>,class std::allocator<int> > *,class std::set<int,struct std::less<int>,class std::allocator<int> > *,__int64,class std::set<unsigned int,struct std::less<unsigned int>,class std::allocator<unsigned int> > *,class std::set<unsigned int,struct std::less<unsigned int>,class std::allocator<unsigned int> > *)" (?wait@CEPoll@@QAEHHPAV?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@0_JPAV?$set@IU?$less@I@std@@V?$allocator@I@2@@3@2@Z) 中引用了该符号
-    已定义且可能匹配的符号上的提示:
-      "public: static int __cdecl CUDT::select(int,class std::set<int,struct std::less<int>,class std::allocator<int> > *,class std::set<int,struct std::less<int>,class std::allocator<int> > *,class std::set<int,struct std::less<int>,class std::allocator<int> > *,struct timeval const *)" (?select@CUDT@@SAHHPAV?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@00PBUtimeval@@@Z)
-      "public: int __thiscall CUDTUnited::select(class std::set<int,struct std::less<int>,class std::allocator<int> > *,class std::set<int,struct std::less<int>,class std::allocator<int> > *,class std::set<int,struct std::less<int>,class std::allocator<int> > *,struct timeval const *)" (?select@CUDTUnited@@QAEHPAV?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@00PBUtimeval@@@Z)
-      "int __cdecl UDT::select(int,class std::set<int,struct std::less<int>,class std::allocator<int> > *,class std::set<int,struct std::less<int>,class std::allocator<int> > *,class std::set<int,struct std::less<int>,class std::allocator<int> > *,struct timeval const *)" (?select@UDT@@YAHHPAV?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@00PBUtimeval@@@Z)
-E:\Leventure\WorkShop\Wheels\UDT_Part\UDT\Debug\UDT_Server.dll : fatal error LNK1120: 20 个无法解析的外部命令
+D:\WorkShop\Github\UDT_Service\UDT_Server\udt_src\core.cpp(771,1): warning C4297: “CUDT::connect”: 假定函数不引发异常，但确实发生了
+D:\WorkShop\Github\UDT_Service\UDT_Server\udt_src\core.cpp(771,1): message : 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
+  moc_UDT_Server.cpp
+    正在创建库 D:\WorkShop\Github\UDT_Service\Debug\UDT_Server.lib 和对象 D:\WorkShop\Github\UDT_Service\Debug\UDT_Server.exp
+  UDT_Server.vcxproj -> D:\WorkShop\Github\UDT_Service\Debug\UDT_Server.dll

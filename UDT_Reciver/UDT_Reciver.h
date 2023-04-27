@@ -36,6 +36,7 @@
 
 class UDT_RECIVER_EXPORT UDT_Reciver:public QObject
 {
+    Q_OBJECT
 public:
     UDT_Reciver();
     ~UDT_Reciver();

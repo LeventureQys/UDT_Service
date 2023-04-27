@@ -74,9 +74,6 @@
     <ClInclude Include="udt_src\buffer.h">
       <Filter>UDT_Src</Filter>
     </ClInclude>
-    <ClInclude Include="UDT_Reciver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="udt_src\cache.cpp">
@@ -123,5 +120,10 @@
     <None Include="udt_src\Makefile">
       <Filter>UDT_Src</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="UDT_Reciver.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>
