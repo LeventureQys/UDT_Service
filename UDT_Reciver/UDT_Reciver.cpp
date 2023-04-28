@@ -11,6 +11,7 @@ UDT_Reciver::~UDT_Reciver()
 #ifndef WIN32
 void* recvdata(void* usocket)
 #else
+
 DWORD WINAPI recvdata(LPVOID usocket)
 #endif
 {
@@ -140,6 +141,7 @@ DWORD WINAPI recvdata(LPVOID usocket)
     return 0;
 #endif
 }
+
 void UDT_Reciver::LogSend(QString text) {
 	if (text.isEmpty()) {
 		qDebug() << "--->LogSend: text is empty";

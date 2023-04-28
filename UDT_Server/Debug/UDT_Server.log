@@ -1,20 +1,4 @@
 ﻿  moc UDT_Server.h
-  api.cpp
-  buffer.cpp
-  cache.cpp
-  ccc.cpp
-  channel.cpp
-  common.cpp
-  core.cpp
-  epoll.cpp
-  list.cpp
-  md5.cpp
-  packet.cpp
-  queue.cpp
-  window.cpp
   UDT_Server.cpp
-D:\WorkShop\Github\UDT_Service\UDT_Server\udt_src\core.cpp(771,1): warning C4297: “CUDT::connect”: 假定函数不引发异常，但确实发生了
-D:\WorkShop\Github\UDT_Service\UDT_Server\udt_src\core.cpp(771,1): message : 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
   moc_UDT_Server.cpp
-    正在创建库 D:\WorkShop\Github\UDT_Service\Debug\UDT_Server.lib 和对象 D:\WorkShop\Github\UDT_Service\Debug\UDT_Server.exp
   UDT_Server.vcxproj -> D:\WorkShop\Github\UDT_Service\Debug\UDT_Server.dll

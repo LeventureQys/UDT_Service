@@ -29,10 +29,10 @@
     <QtUic Include="UDT.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="UDT.h">
+    <QtMoc Include="UDT_Demo.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClCompile Include="UDT.cpp">
+    <ClCompile Include="UDT_Demo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

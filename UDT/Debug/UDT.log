@@ -1,2 +1,2 @@
-﻿C:\Users\Administrator\AppData\Local\QtMsBuild\qt_vars.targets(68,5): error : There's no Qt version assigned to project UDT.vcxproj for configuration Debug/Win32.
-C:\Users\Administrator\AppData\Local\QtMsBuild\qt_vars.targets(68,5): error : Please set a Qt installation in 'Project|Properties|Configuration Properties|Qt Project Settings|Qt Installation'.
+﻿  UDT_Demo.cpp
+  UDT.vcxproj -> D:\WorkShop\Github\UDT_Service\Debug\UDT.exe

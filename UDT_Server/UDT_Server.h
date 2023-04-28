@@ -40,23 +40,32 @@
 
 //小文件限制
 #define MIN_FILE_SIZE 1024*1024
+
 class UDT_SERVER_EXPORT UDT_Sender:public QObject
 {
+
     Q_OBJECT
+    
 public:
+
     UDT_Sender();
+
     ~UDT_Sender(){}
 
     void init_server(QString ip, qint16 port);
+    
 public slots:
+
     void send_file(QString file);
+
     void close(); //中断操作
 
-//Q_SIGNALS:
 signals:
 
     void sig_state_file_send(qint64, qint64); //参数1:已经发送的字节数 参数2:总字节数
+
     void sig_send_complete();
+
     void sig_log(QString);
 
 private:
