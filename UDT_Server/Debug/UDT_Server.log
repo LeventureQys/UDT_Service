@@ -1,4 +1,3 @@
-﻿  moc UDT_Server.h
-  UDT_Server.cpp
-  moc_UDT_Server.cpp
+﻿  UDT_Server.cpp
+    正在创建库 D:\WorkShop\Github\UDT_Service\Debug\UDT_Server.lib 和对象 D:\WorkShop\Github\UDT_Service\Debug\UDT_Server.exp
   UDT_Server.vcxproj -> D:\WorkShop\Github\UDT_Service\Debug\UDT_Server.dll

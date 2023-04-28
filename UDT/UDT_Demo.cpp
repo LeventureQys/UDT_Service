@@ -75,12 +75,13 @@ void UDT_Demo::on_btn_sender_init_clicked() {
         this->ptr_sender = QSharedPointer<UDT_Sender>(new UDT_Sender());
     }
 
-    if (this->ui.line_ip->text().isEmpty() || this->ui.line_port->text().isEmpty()) {
+    if (!this->ui.line_ip->text().isEmpty() && !this->ui.line_port->text().isEmpty()) {
         this->em_sender("请正确输入IP和端口");
         return;
     }
-    QString sender_ip = this->ui.line_ip->text();
-    quint16 sender_port = this->ui.line_port->text().toUShort();
+    QString sender_ip = this->ui.line_send_ip->text();
+    //qDebug() << this->ui.line_send_port->text();
+    quint16 sender_port = this->ui.line_send_port->text().toInt();
 
     connect(this->ptr_sender.data(), &UDT_Sender::sig_log, [=](QString Insert) {
         em_sender(Insert);

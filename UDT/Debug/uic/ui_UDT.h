@@ -45,13 +45,13 @@ public:
     QLineEdit *line_send_port;
     QWidget *tab_2;
     QPlainTextEdit *text_rec;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout_3;
     QLineEdit *line_ip;
     QLineEdit *line_port;
     QLabel *label_3;
     QPushButton *btn_rec_init;
-    QWidget *widget1;
+    QWidget *layoutWidget1;
     QHBoxLayout *horizontalLayout_4;
     QLabel *label_4;
     QLineEdit *line_rec_location;
@@ -140,58 +140,58 @@ public:
         text_rec = new QPlainTextEdit(tab_2);
         text_rec->setObjectName(QString::fromUtf8("text_rec"));
         text_rec->setGeometry(QRect(20, 90, 451, 211));
-        widget = new QWidget(tab_2);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(20, 30, 457, 25));
-        horizontalLayout_3 = new QHBoxLayout(widget);
+        layoutWidget = new QWidget(tab_2);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(20, 30, 457, 25));
+        horizontalLayout_3 = new QHBoxLayout(layoutWidget);
         horizontalLayout_3->setSpacing(6);
         horizontalLayout_3->setContentsMargins(11, 11, 11, 11);
         horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
         horizontalLayout_3->setContentsMargins(0, 0, 0, 0);
-        line_ip = new QLineEdit(widget);
+        line_ip = new QLineEdit(layoutWidget);
         line_ip->setObjectName(QString::fromUtf8("line_ip"));
 
         horizontalLayout_3->addWidget(line_ip);
 
-        line_port = new QLineEdit(widget);
+        line_port = new QLineEdit(layoutWidget);
         line_port->setObjectName(QString::fromUtf8("line_port"));
 
         horizontalLayout_3->addWidget(line_port);
 
-        label_3 = new QLabel(widget);
+        label_3 = new QLabel(layoutWidget);
         label_3->setObjectName(QString::fromUtf8("label_3"));
 
         horizontalLayout_3->addWidget(label_3);
 
-        btn_rec_init = new QPushButton(widget);
+        btn_rec_init = new QPushButton(layoutWidget);
         btn_rec_init->setObjectName(QString::fromUtf8("btn_rec_init"));
 
         horizontalLayout_3->addWidget(btn_rec_init);
 
-        widget1 = new QWidget(tab_2);
-        widget1->setObjectName(QString::fromUtf8("widget1"));
-        widget1->setGeometry(QRect(20, 60, 451, 25));
-        horizontalLayout_4 = new QHBoxLayout(widget1);
+        layoutWidget1 = new QWidget(tab_2);
+        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
+        layoutWidget1->setGeometry(QRect(20, 60, 451, 25));
+        horizontalLayout_4 = new QHBoxLayout(layoutWidget1);
         horizontalLayout_4->setSpacing(6);
         horizontalLayout_4->setContentsMargins(11, 11, 11, 11);
         horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
         horizontalLayout_4->setContentsMargins(0, 0, 0, 0);
-        label_4 = new QLabel(widget1);
+        label_4 = new QLabel(layoutWidget1);
         label_4->setObjectName(QString::fromUtf8("label_4"));
 
         horizontalLayout_4->addWidget(label_4);
 
-        line_rec_location = new QLineEdit(widget1);
+        line_rec_location = new QLineEdit(layoutWidget1);
         line_rec_location->setObjectName(QString::fromUtf8("line_rec_location"));
 
         horizontalLayout_4->addWidget(line_rec_location);
 
-        btn_rec_location = new QPushButton(widget1);
+        btn_rec_location = new QPushButton(layoutWidget1);
         btn_rec_location->setObjectName(QString::fromUtf8("btn_rec_location"));
 
         horizontalLayout_4->addWidget(btn_rec_location);
 
-        btn_rec_listen = new QPushButton(widget1);
+        btn_rec_listen = new QPushButton(layoutWidget1);
         btn_rec_listen->setObjectName(QString::fromUtf8("btn_rec_listen"));
 
         horizontalLayout_4->addWidget(btn_rec_listen);
@@ -219,6 +219,8 @@ public:
         btn_sender_check->setText(QCoreApplication::translate("UDTClass", "\346\265\217\350\247\210", nullptr));
         btn_sender_send->setText(QCoreApplication::translate("UDTClass", "\345\217\221\351\200\201", nullptr));
         label_2->setText(QCoreApplication::translate("UDTClass", "\351\200\211\346\213\251\346\226\207\344\273\266\345\217\221\351\200\201", nullptr));
+        line_send_ip->setText(QCoreApplication::translate("UDTClass", "127.0.0.1", nullptr));
+        line_send_port->setText(QCoreApplication::translate("UDTClass", "8450", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("UDTClass", "\345\217\221\351\200\201\347\253\257", nullptr));
         label_3->setText(QCoreApplication::translate("UDTClass", "\345\210\235\345\247\213\345\214\226\346\234\215\345\212\241\345\231\250\350\277\236\346\216\245", nullptr));
         btn_rec_init->setText(QCoreApplication::translate("UDTClass", "\345\210\235\345\247\213\345\214\226", nullptr));

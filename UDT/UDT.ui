@@ -79,10 +79,18 @@
          <widget class="QPlainTextEdit" name="text_sender"/>
         </item>
         <item row="0" column="0">
-         <widget class="QLineEdit" name="line_send_ip"/>
+         <widget class="QLineEdit" name="line_send_ip">
+          <property name="text">
+           <string>127.0.0.1</string>
+          </property>
+         </widget>
         </item>
         <item row="0" column="1">
-         <widget class="QLineEdit" name="line_send_port"/>
+         <widget class="QLineEdit" name="line_send_port">
+          <property name="text">
+           <string>8450</string>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>
@@ -100,7 +108,7 @@
          </rect>
         </property>
        </widget>
-       <widget class="QWidget" name="">
+       <widget class="QWidget" name="layoutWidget">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -132,7 +140,7 @@
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="">
+       <widget class="QWidget" name="layoutWidget">
         <property name="geometry">
          <rect>
           <x>20</x>

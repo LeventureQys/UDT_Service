@@ -1,5 +1,5 @@
 #pragma once
-
+#pragma execution_character_set("utf-8") 
 //Author:Leveture
 //Date: 2023.4.21
 //Info:: 此工程为UDT协议的DLL，这个DLL提供更高效的基于UDP协议的文件传输协议

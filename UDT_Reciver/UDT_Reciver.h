@@ -1,5 +1,5 @@
 #pragma once
-
+#pragma execution_character_set("utf-8") 
 #include "udt_reciver_global.h"
 #include <QReadWriteLock>
 #include <QQueue>

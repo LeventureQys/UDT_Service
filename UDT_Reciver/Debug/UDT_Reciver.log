@@ -1,3 +1,4 @@
-﻿  UDT_Reciver.cpp
+﻿  moc UDT_Reciver.h
+  UDT_Reciver.cpp
   moc_UDT_Reciver.cpp
   UDT_Reciver.vcxproj -> D:\WorkShop\Github\UDT_Service\Debug\UDT_Reciver.dll
